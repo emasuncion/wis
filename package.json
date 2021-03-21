@@ -1,6 +1,11 @@
 {
   "name": "wis",
-  "version": "1.0.0",
+  "description": "A WIS web application for taking exams",
+  "version": "0.0.1",
+  "author": {
+    "name": "Eleirold Asuncion",
+    "email": "easuncion1@up.edu.ph"
+  },
   "private": true,
   "scripts": {
     "dev": "nuxt",

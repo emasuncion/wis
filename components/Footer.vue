@@ -1,7 +1,6 @@
 <template>
   <v-footer
     id="wis-footer-container"
-    absolute
     :padless="padless"
   >
     <v-card

@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify';
-import {config} from '@vue/test-utils';
+import { config } from '@vue/test-utils';
 
 Vue.config.silent = true;
 Vue.use(Vuetify);

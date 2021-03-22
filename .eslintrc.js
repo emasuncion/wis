@@ -11,6 +11,18 @@ module.exports = {
     '@nuxtjs',
     'plugin:nuxt/recommended'
   ],
+  globals: {
+    expect: true
+  },
+  ignorePatterns: ['**/*.config.*', '**/*.setup.*'],
+  overrides: [
+    {
+      files: ['*.vue'],
+      rules: {
+        indent: 'off'
+      }
+    }
+  ],
   plugins: [
   ],
   // add your custom rules here
